@@ -1,0 +1,14 @@
+<%- include('partials/header'); -%>
+
+<div class="shadow login-box radius-10px transformXY-center">
+    <h2>Enter a <span class="hyphen">Username <hr class="special-underline"></span></h2>
+    <form action="/" method="POST" name="login-form">
+        <div class="signin-box">
+            <input type="text" name="username" autocomplete="off" maxlength="12" minlength="4" required>
+            <label><i aria-hidden="true">Username</i></label>
+        </div>
+        <button type="submit" class="radius-10px" id="join-room-button">Join Room</button>
+    </form>
+</div>
+
+<%- include('partials/footer'); -%>

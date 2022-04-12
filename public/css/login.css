@@ -1,0 +1,67 @@
+.login-box{
+    position: absolute;
+    background-color: var(--DIMMER-BODY-COLOR);
+    border: 2px solid var(--BLACK-COLOR);
+    padding: 50px;
+    width: 450px;
+    height: 45%;
+}
+
+.login-box h2{
+    text-align: center;
+    padding: 0;
+    margin: 0 0 1.2em;
+    font-size: 2rem;
+}
+
+.login-box .signin-box{
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.login-box .signin-box input{
+    width: 100%;
+    outline: none;
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 1px solid var(--BLACK-COLOR);
+    background-color: transparent;
+    color: var(--BLACK-COLOR);
+}
+
+.login-box .signin-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    font-size: 1.2rem;
+    transition: .5s ease all;
+    -webkit-transition: 0.5s ease all;
+}
+
+.login-box .signin-box input:focus ~ label, 
+.login-box .signin-box input:valid ~ label{
+    top: -20px;
+    left: 0;
+    color: var(--BLACK-COLOR);
+    font-size: 0.8rem;
+}
+
+.login-box button{
+    padding: 3px;
+    width: 100%;
+    font-size: 1.5rem;
+    color: var(--WHITE-COLOR);
+    background-color: var(--BLACK-COLOR);
+    border: none;
+    transition: 0.25s ease all;
+    -webkit-transition: 0.25s ease all;
+}
+
+.login-box button:hover, .login-box button:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--ORANGE-COLOR);
+    border: 2px solid var(--ORANGE-COLOR);
+    transform: translateY(-0.25em);
+    -webkit-transform: translateY(-0.25em);
+}

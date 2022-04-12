@@ -1,0 +1,123 @@
+:root{
+    --BLACK-COLOR: #000000;
+    --DEFAULT-BODY-COLOR: #2c2f33;
+    --DIMMER-BODY-COLOR: #99aab5;
+    --OFF-RED-COLOR: #ed1c24;
+    --GREEN-COLOR: green; 
+    --WHITE-COLOR: #fffffc;
+    --GREY-COLOR: #beb7a4;
+    --DARKGREY-COLOR: rgb(112, 112, 112);
+    --ORANGE-COLOR: #ff7f11;
+    --DEFAULT-TEXT-SIZE: 16px;
+}
+
+html{
+    font-size: var(--DEFAULT-TEXT-SIZE);
+    height: 100%;
+    min-height: 100%;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 100%;
+    background-color: var(--DEFAULT-BODY-COLOR);
+    color: var(--WHITE-COLOR);
+    min-height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--GREY-COLOR); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--BLACK-COLOR); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--BLACK-COLOR); 
+}
+
+
+h1{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: var(--BLACK-COLOR);
+    color: var(--WHITE-COLOR);
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+footer p {
+	font-size: 1rem;
+    margin: 0;
+    padding: 10px;
+}
+
+.shadow{
+    box-shadow: 0 0px 5px rgb(160 51 142 / 45%), 0 0px 5px rgb(160 51 142 / 50%), 0 1px 5px rgb(160 51 142 / 45%), 0 1px 5px rgb(160 51 142 / 50%);
+}
+
+.shadow-2{
+    box-shadow: 0 0px 3px rgb(0 255 0 / 45%), 0 0px 3px rgb(0 255 0 / 50%), 0 1px 3px rgb(0 255 0 / 45%), 0 1px 3px rgb(0 255 0 / 50%);
+}
+
+.hyphen{
+    hyphens: auto;
+}
+
+.special-underline{
+    background-color: transparent;
+    border-top: 4px dotted var(--ORANGE-COLOR);
+    width: 25%;
+}   
+
+.radius-10px{
+    border-radius: 10px;
+}
+
+.margin-left-right-15px{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.transformXY-center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.user-profile-img{
+    max-width: 3rem;
+    border-radius: 50%;
+}

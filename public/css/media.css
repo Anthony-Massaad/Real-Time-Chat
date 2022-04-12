@@ -1,0 +1,56 @@
+@media only screen and (max-width: 650px){
+    .box{
+        width: 85%;
+    }
+
+    .whole-container{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    :root{
+        --DEFAULT-TEXT-SIZE: 11px;
+    }
+
+    .login-box{
+        width: 95%;
+        padding: 50px 20px 50px 20px;
+        height: 40%;
+    }
+
+    .box img{
+        float: none;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+    }
+
+    .box{
+        padding: 5px;
+    }
+
+    .box .detail-container{
+        text-align: center;
+    }
+
+    .box .username{
+        float: none;
+    }
+
+    .box .time{
+        float: none;
+        display: block;
+    }
+
+    .box .message{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .chat-room.move-right{
+        padding-left: 3rem;
+        margin-left: 7rem;
+    }
+}

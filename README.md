@@ -3,7 +3,7 @@
 ## Description
 This repository shows the implementation of a Real Time Chat using Ejs, JavaScript, and CSS. At the same time, the server is connected using sockets that allows one or more users to connect and message one another with whatever username they input in the login page. 
 
-### Quick preview on two different browsers
+### Quick preview on two different tabs
 ![image](https://user-images.githubusercontent.com/62800170/163240750-e1acff0e-f98c-4d83-8dd5-3dcecba086b9.png)
 
 ## Requirements

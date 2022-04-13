@@ -16,7 +16,8 @@ function getTime(){
     var hours = today.getHours(); 
     var minutes = today.getMinutes();
     minutes = minutes < 10 ? "0"+minutes : minutes;
-    const ampm = hours >= 12 ? "pm" : "am" 
+    const ampm = hours >= 12 ? "pm" : "am";
+    hours = hours % 12; 
     hours = hours ? hours : 12;
     return day + " at " + hours + ":" + minutes + " " + ampm;
 }
